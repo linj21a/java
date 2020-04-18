@@ -15,11 +15,20 @@ package collectionandmap;
  */
 
 
+import java.util.Iterator;
 import java.util.stream.IntStream;
 
 public class IntStreamTest {
         public static void main(String[] args) {
             IntStream is = IntStream.builder().add(20).add(13).add(-2).add(18).build();
+            IntStream no = IntStream.of(1,2,3,4,5,6);
+            Iterator it = no.iterator();
+            while
+            (it.hasNext()){
+                int a = (int)it.next();
+                System.out.println(a);
+
+            }
             // 下面调用聚集方法的代码每次只能执行一行，都是末端方法
             // System.out.println("is 所有元素的最大值：" + is.max().getAsInt());
             //            System.out.println("is 所有元素的最小值：" + is.min().getAsInt());
