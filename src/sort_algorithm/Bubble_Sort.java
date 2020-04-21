@@ -40,12 +40,12 @@ public class Bubble_Sort {
         {
             //如果没有交换我们直接可以进行下一趟了。
             //说明一下flag，array[array.length-i-1]本身就是最大值了，那这一轮我们就没必要进行冒泡了嘛，它都已经冒泡好了，所有我们直接下一轮
-          // flag = false;
+            flag = false;
             for (int j = 0; j < array.length - i; j++)//i表示进行的趟数，每一趟能排好一个数，只需要排剩下的array.length-i个数
                 if (exchange ? array[j] > array[j + 1] : array[j] < array[j + 1])//控制升序还是降序
                 {
                     swap(array, j, j + 1);
-                  // flag = true;
+                    flag = true;
                 }
             System.out.println("第"+i+"趟,冒泡上去的是"+array[array.length-i]);
             for(int arr:array){
@@ -56,7 +56,7 @@ public class Bubble_Sort {
         }
     }
         public static void main(String[]args){
-            int[]array = {45,12,65,89,66,99,32,564,78};
+            int[]array ={45,12,65,89,66,99,32,564,78};
             Bubble_Sort.bubbleSort(array);
         }
  }
