@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79aaa80e-4a60-4f37-972f-bf4a398e8f16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/sort_algorithm/Bubble_Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/sort_algorithm/Bubble_Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort_algorithm/Bubble_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_algorithm/Bubble_Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort_algorithm/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort_algorithm/BucketSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="D:\Program Files\JetBrains\JavaLearningStory\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
+  <component name="RunManager" selected="Application.BucketSort">
     <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort_algorithm.BucketSort" />
       <module name="JavaLearningStory" />
@@ -62,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithm.CountSort" />
+    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.Practice1" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithm.*" />
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithm.RadixSort" />
+    <configuration name="Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="面试题.Static" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithm.*" />
+          <option name="PATTERN" value="面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithm.ShellSort" />
+    <configuration name="StructCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="面试题.StructCode" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithm.*" />
+          <option name="PATTERN" value="面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StraightInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_algorithm.StraightInsertionSort" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.Test1" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_algorithm.*" />
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.CountSort" />
         <item itemvalue="Application.BucketSort" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.StraightInsertionSort" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Practice1" />
+        <item itemvalue="Application.StructCode" />
+        <item itemvalue="Application.Static" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +170,9 @@
       <workItem from="1587365816575" duration="7563000" />
       <workItem from="1587383597197" duration="10251000" />
       <workItem from="1587436877243" duration="14570000" />
+      <workItem from="1587466098812" duration="128000" />
+      <workItem from="1587473032939" duration="3263000" />
+      <workItem from="1587522026025" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="版本进度:网络编程">
       <created>1587268680942</created>
@@ -218,46 +220,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="807" y="227" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586872616109" />
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1587465922398">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587465922398" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1587465922398">
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587465922398" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1587465922398">
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587465922398" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1587465922398">
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587465922398" />
-    <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1586859398231">
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586859398231" />
-    <state width="723" height="260" key="GridCell.Tab.1.center" timestamp="1586859398230">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586859398230" />
-    <state width="723" height="260" key="GridCell.Tab.1.left" timestamp="1586859398230">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586859398230" />
-    <state width="723" height="260" key="GridCell.Tab.1.right" timestamp="1586859398230">
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1587527995208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586859398230" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587527995208" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1587196162662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587196162662" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587436899220">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587522028900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587436899220" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587522028900" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587268596403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

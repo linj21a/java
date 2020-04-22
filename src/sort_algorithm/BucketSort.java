@@ -6,6 +6,7 @@ public class BucketSort {
         int n = array.length, max = array[0], min = array[0];
         int[][] bask = new int[10][n];//定义10个桶来放数据，桶的索引为0到9,每个桶的数量最多存放n个数，
         //找最大值最小值制定桶的饭量
+
         for (int i = 1; i < array.length; i++) {
             if (min > array[i])
                 min = array[i];
@@ -16,14 +17,12 @@ public class BucketSort {
        // System.out.println("MAX:"+max+" min:"+min+" Delta:"+delta);
        // System.out.println("存进数 桶号 该桶元素个数");
         int[] len_bask = new int[n];
-        for (int i = 0; i < n; i++)//定义一个数组来记录对应的桶现在吃了多少个数
-            len_bask[i] = 0;//初始化0，用于记数
 
         //开始将数放进桶里
-        for (int i = 0; i < n; i++) {//遍历原数组
-            int num = (array[i] - min) / delta;//每一个数对应的桶号
+        for (int value : array) {//遍历原数组
+            int num = (value - min) / delta;//每一个数对应的桶号
             // 放进对应桶号的对应位置
-            bask[num][len_bask[num]] = array[i];
+            bask[num][len_bask[num]] = value;
             //桶内数的个数加1
             len_bask[num]++;
             //System.out.println(array[i]+"\t"+num+"\t"+len_bask[num]);
@@ -60,11 +59,9 @@ public class BucketSort {
 
         }
         //建立一个用于计数的数组，对应的下标映射实际数组的值
-        delta = 0+min;//映射关系就是计数的数组与实际的值相差delta
+        delta = min;//映射关系就是计数的数组与实际的值相差delta
         int []count_map = new int[max-min+1];
         //count_map里的值都初始化为0；
-        for(int a=0;a<count_map.length;a++)
-            count_map[a]=0;
 
 
         //开始计数
