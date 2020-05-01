@@ -1,7 +1,7 @@
 package Reflect;
 
-        import javax.swing.*;
-        import java.util.Date;
+import javax.swing.*;
+import java.util.Date;
 
 public class ObjectFactory {
 
@@ -13,6 +13,7 @@ public class ObjectFactory {
             return null;
         }
     }
+
     public static void main(String[] args) {
         // 获取实例后无须类型转换
         Date d = ObjectFactory.getInstance(Date.class);

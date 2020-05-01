@@ -2,10 +2,10 @@ package 内部类的三种类型;
 
 public class Static_Ineer {
 
-        static class Inner {//静态内部类
-            int a = 0;    // 实例变量a
-            static int b = 3;    // 静态变量 b
-        }
+    static class Inner {//静态内部类
+        int a = 0;    // 实例变量a
+        static int b = 3;    // 静态变量 b
+    }
 
     class OtherClass {//实例内部类，非静态内部类
 
@@ -14,7 +14,7 @@ public class Static_Ineer {
         int b2 = Static_Ineer.Inner.b;    // 访问静态成员
         int b3 = oi.b;
     }
- }
+}
  /*
  在创建静态内部类的实例时，不需要创建外部类的实例。
 

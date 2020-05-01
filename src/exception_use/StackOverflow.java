@@ -4,13 +4,15 @@ package exception_use;
  */
 
 public class StackOverflow {
-    public static void test(int i){
-        if(i==0){return;}
+    public static void test(int i) {
+        if (i == 0) {
+            return;
+        }
         test(i++);
     }
 
-   public static void main(String[]args){
+    public static void main(String[] args) {
         StackOverflow.test(5);//通过类名调用静态方法。
 
-   }
+    }
 }

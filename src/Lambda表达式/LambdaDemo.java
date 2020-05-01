@@ -1,9 +1,11 @@
 package Lambda表达式;
+
 public class LambdaDemo {
     // 实例成员变量
     private int value = 10;
     // 静态成员变量
     private static int staticValue = 5;
+
     // 静态方法，进行加法运算
     public static Caculation add() {
         // 局部变量
@@ -16,6 +18,7 @@ public class LambdaDemo {
         };
         return result;
     }
+
     // 实例方法，进行减法运算
     public Caculation sub() {
         // final局部变量

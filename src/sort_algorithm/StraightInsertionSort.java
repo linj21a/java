@@ -4,11 +4,12 @@ import javax.swing.*;
 
 public class StraightInsertionSort {
     //从右边第二个数字开始，在与前面的子序列进行比较，找到属于自己的位置进行插入
-    public static void straghtInsertSort(int []array){
+    public static void straghtInsertSort(int[] array) {
         //
-        straghtInsertSort(array,true);//默认进行升序
+        straghtInsertSort(array, true);//默认进行升序
     }
-    public static void straghtInsertSort(int []array,boolean flag) {
+
+    public static void straghtInsertSort(int[] array, boolean flag) {
         if (flag) {
             for (int i = 1; i < array.length; i++) {//从第二个数开始
                 int temp = array[i], j, k = 0, q = i - 1;
@@ -40,17 +41,18 @@ public class StraightInsertionSort {
 
         }
     }
-    public static void main(String[]args){
-        int []array1 = {12,121,5,45,4,4,74,978,979,7,4,6,64,6,4554,979,44,55,1,215,46,22};
-        int []array2 = {12,121,5,45,4,4,74,978,979,7,4,6,64,6,4554,979,44,55,1,215,46,22};
+
+    public static void main(String[] args) {
+        int[] array1 = {12, 121, 5, 45, 4, 4, 74, 978, 979, 7, 4, 6, 64, 6, 4554, 979, 44, 55, 1, 215, 46, 22};
+        int[] array2 = {12, 121, 5, 45, 4, 4, 74, 978, 979, 7, 4, 6, 64, 6, 4554, 979, 44, 55, 1, 215, 46, 22};
         long t1 = System.currentTimeMillis();
 
-      straghtInsertSort(array1);//优化
-        System.out.println((System.currentTimeMillis()-t1)+"ms");
+        straghtInsertSort(array1);//优化
+        System.out.println((System.currentTimeMillis() - t1) + "ms");
 
         System.out.println("\n排序以后的数组：");
-        for(int a:array1){
-            System.out.print(a+" ");
+        for (int a : array1) {
+            System.out.print(a + " ");
         }
     }
 }

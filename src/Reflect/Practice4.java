@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  * getMethods(String name,Class<?> …parameterTypes)
  * getDeclaredMethods()
  * getDeclaredMethods(String name,Class<?>...parameterTypes)
- *
+ * <p>
  * 如果是访问指定的构造方法，需要根据该方法的入口参数的类型来访问。
  */
 
@@ -79,7 +79,7 @@ public class Practice4 {
                     } else if (method.getName().equals("protectedMethod")) { // 调用两个参数的方法
                         System.out.println("protectedMethod(\"10\",15)的返回值为：" + method.invoke(book, "10", 15));
                     } else if (method.getName().equals("privateMethod")) { // 调用可变数量参数的方法
-                        Object[] parameters = new Object[] { new String[] { "J", "A", "V", "A" } };
+                        Object[] parameters = new Object[]{new String[]{"J", "A", "V", "A"}};
                         System.out.println("privateMethod()的返回值为：" + method.invoke(book, parameters));
                     }
                 } catch (Exception e) {

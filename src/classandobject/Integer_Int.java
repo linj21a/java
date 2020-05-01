@@ -1,7 +1,7 @@
 package classandobject;
 
 public class Integer_Int {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         // 1）基本类型和包装类型
         double a = 10.0;//常规量，
         Double b = 10.0;//自动装箱，使用了new

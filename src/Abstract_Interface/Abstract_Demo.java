@@ -8,16 +8,16 @@ package Abstract_Interface;
  * Java抽象类和Java接口一样，都用来声明一个新的类型。并且作为一个类型的等级结构的起点。
  */
 
-public   class Abstract_Demo {
-    public static void main(String[]args){
+public class Abstract_Demo {
+    public static void main(String[] args) {
         //创建父类发现无法实例化
-       // Shape sp = new Shape(1,2);
+        // Shape sp = new Shape(1,2);
 
         //创建方形
-        Square sq = new Square(12,44);
+        Square sq = new Square(12, 44);
         System.out.println(sq.getArea());
         //创建三角形
-        Triangle tr = new Triangle(23,45);
+        Triangle tr = new Triangle(23, 45);
         System.out.println(tr.getArea());
 
     }

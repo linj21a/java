@@ -1,4 +1,5 @@
 package java基础;
+
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -10,7 +11,7 @@ import java.util.Scanner;
  */
 
 public class DataDemo {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         //第一步，定义data对象,因为是抽象类，不能使用构造方法实例化对象，通过方法getDateInstance可以创建。
         //DateFormat df1 = DateFormat.getDateInstance();
         Date dt1 = new Date();//采用的是国家标准格式CST(Center Standard Time) ,分配一个Date对象并初始化它，使它表示分配它的时间，测量到最近的毫秒。
@@ -21,19 +22,19 @@ public class DataDemo {
         System.out.println(dt2.toString());
 
         //接受用户输入的时间与日期，到了日期就提醒，过期就警告
-        Scanner  sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         //1.输入你要办的时间与日期
         System.out.println("请输入事件：");
         String staff = sc.next();
         //获取当前时间
         Date now_da = new Date();
-        System.out.println("你要办的事件为："+staff+",发生的时间是"+now_da);
+        System.out.println("你要办的事件为：" + staff + ",发生的时间是" + now_da);
 
 
         //模拟时间流逝，采用延时
-        try{
+        try {
             Thread.sleep(60000);//延时1分钟
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
@@ -45,7 +46,6 @@ public class DataDemo {
         } else {
             System.out.println("【" + staff + "】事情已经过去了 " + (date2.getTime() - now_da.getTime()) / 1000 + " 秒");
         }
-
 
 
     }

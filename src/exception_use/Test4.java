@@ -9,7 +9,7 @@ public class Test4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Windows 系统已启动！");
-        String[] pros = { "记事本", "计算器", "浏览器" };
+        String[] pros = {"记事本", "计算器", "浏览器"};
         try {
             // 循环输出pros数组中的元素
             for (int i = 0; i < pros.length; i++) {

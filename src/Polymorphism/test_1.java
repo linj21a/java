@@ -8,22 +8,22 @@ package Polymorphism;
  */
 
 public class test_1 {
-    public static void main(String []args){
+    public static void main(String[] args) {
         //创建父类Animal
-        Animal an = new Animal("祖宗",223);
+        Animal an = new Animal("祖宗", 223);
 
 
         //Animal
         an.sayHello();
 
         //cat
-        an = new Cat("Tom",6,"catch mouse");//向上转向，必须有继承关系
+        an = new Cat("Tom", 6, "catch mouse");//向上转向，必须有继承关系
         an.sayHello();//方法重写
 
         //dog
-        an = new Dog("Jimmy",8,"catch cat");
+        an = new Dog("Jimmy", 8, "catch cat");
         an.sayHello();
-        Dog dog = (Dog)an;
+        Dog dog = (Dog) an;
         dog.sayHello();
         dog.yeild();
     }

@@ -15,7 +15,7 @@ public class StructCode {
     }
 
 
-    public static void main(String[]args){//先加载类，一加载就会执行静态代码块，而且只运行一次，然后找main函数入口。
+    public static void main(String[] args) {//先加载类，一加载就会执行静态代码块，而且只运行一次，然后找main函数入口。
 
         new StructCode(10);//有对象就会执行构造代码块，然后执行构造函数，
         new StructCode(10);//有对象就会执行构造代码块，然后执行构造函数，

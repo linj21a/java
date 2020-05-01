@@ -1,6 +1,6 @@
 package Lambda表达式;
 
-public class Practice  {
+public class Practice {
     public static void main(String[] args) {
         int n1 = 10;
         int n2 = 5;
@@ -11,6 +11,7 @@ public class Practice  {
         // 打印减法计算结果
         display((a, b) -> a - b, n1, n2);
     }
+
     /**
      * 打印计算结果
      *

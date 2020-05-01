@@ -1,24 +1,25 @@
 package Abstract_Interface;
 
-public class InterFace_Demo implements Circle_Interface{
+public class InterFace_Demo implements Circle_Interface {
     private double radius;
 
     //定义一个构造方法
-    public InterFace_Demo(double radius){
+    public InterFace_Demo(double radius) {
         this.radius = radius;
     }
 
     //应该加@Override声明为重写
     @Override
-    public double getArea(){
-        return pai*radius*radius;
-    }
-    @Override
-    public double getLength(){
-        return pai *radius*2;
+    public double getArea() {
+        return pai * radius * radius;
     }
 
-    public static void main(String[]args){
+    @Override
+    public double getLength() {
+        return pai * radius * 2;
+    }
+
+    public static void main(String[] args) {
         InterFace_Demo circle = new InterFace_Demo(4);
 
         //计算面积，接口的抽象方法必须重写

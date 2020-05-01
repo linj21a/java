@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class DateFormat_demo {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         // 获取不同格式化风格和中国环境的日期,就是日期的格式，不含多少点
         DateFormat df1 = DateFormat.getDateInstance(DateFormat.SHORT, Locale.CHINA);
         DateFormat df2 = DateFormat.getDateInstance(DateFormat.FULL, Locale.CHINA);

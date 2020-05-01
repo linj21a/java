@@ -12,6 +12,7 @@ public class Demo类 {
             System.out.println(obj.getClass().getInterfaces()[i]);
         }
     }
+
     public static void main(String[] args) {
         String strObj = new String();
         printClassInfo(strObj);//静态方法在类定义时就已经分配内存了，可以直接调用。

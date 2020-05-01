@@ -4,16 +4,16 @@ package Abstract_Interface;
  * 接口没有构造方法，抽象类具有构造方法；
  * 接口中的成员域默认是具有public、static、final属性的，而抽象类中的成员域要看自己是怎么定义的~
  * 接口，多态，弥补单继承
- *
+ * <p>
  * 现在接口和抽象类越来越相似了，现在不同点也就剩下：继承1个和实现多个的区别了。
- *
+ * <p>
  * 此外，值得注意的是：面向对象中，java只是支持单继承，不支持多继承，一个类只能继承一个类，
  * 　　（1）如果多个接口定义了同样的静态方法，
  * 　　        即使存在实现类，同时实现多个接口，仍然是不可使用实现类名调用接口的方法
  * 　　（2）如果多个接口定义了同样的默认方法
  * 　　    实现类实现多个接口时，必须重写掉默认方法，否则编译失败。
  * 　　在接口中可以定义实现的方法体是java8的一大特性，可以定义多个静态或者默认的方法，静态必须加上static，默认方法必须加上default关键字。
- *  接口是对行为的抽象。接口是对类局部（行为）进行抽象。
+ * 接口是对行为的抽象。接口是对类局部（行为）进行抽象。
  */
 
 public interface Circle_Interface {
@@ -24,15 +24,16 @@ public interface Circle_Interface {
     // 方法的声明不需要其他修饰符，在接口中声明的方法，将隐式地声明为公有的（public）和抽象的（abstract）。
 
     //1.静态方法，可以有函数体，默认public
-     static double Volume(){
+    static double Volume() {
         System.out.println("Circle_Interface的静态方法");
         return 1;
     }
+
     //抽象方法
     double getArea();//只要是抽象方法都无法拥有函数体，只能在继承的类或者实现该接口的类重写
 
     //普通方法的定义
-    default double getLength(){
+    default double getLength() {
         System.out.println("Circle_Interface的普通方法");
         return 0;
     }

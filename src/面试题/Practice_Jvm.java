@@ -1,14 +1,14 @@
 package 面试题;
 
 public class Practice_Jvm {
-    public static void main(String []args){
+    public static void main(String[] args) {
         int i = 2;
         int b = i++;//2
         b = b++;//根本不改变b的值。
         int c = ++i;//4
 
-        System.out.println(i+" "+b+" "+c);
-        for(int k=0;k<10;k++){
+        System.out.println(i + " " + b + " " + c);
+        for (int k = 0; k < 10; k++) {
             b = b++;//b = 2->先将2入栈，然后槽2里的b加1，此时槽里的b=3，然后将栈顶元素值2弹出到槽2，即b被重赋值为2；
         }
         System.out.println(b);//b则等于2

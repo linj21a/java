@@ -15,7 +15,7 @@ import java.io.OutputStream;
  * UTF：
  * UTF 编码兼容了 ISO8859-1 编码，同时也可以用来表示所有的语言字符，不过 UTF 编码是不定长编码，每一个字符的长度为 1~6 个字节不等。
  * 一般在中文网页中使用此编码，可以节省空间。
- *
+ * <p>
  * 在程序中如果处理不好字符编码，就有可能出现乱码问题。例如现在本机的默认编码是 GBK，但在程序中使用了 ISO8859-1 编码，
  * 则就会出现字符的乱码问题。就像两个人交谈，一个人说中文，另外一个人说英语，语言不同就无法沟通。为了避免产生乱码，程序编码应与本地的默认编码保持一致。
  */
@@ -25,7 +25,7 @@ import java.io.OutputStream;
 //如果要实现编码的转换可以使用 String 类中的 getBytes(String charset) 方法，此方法可以设置指定的编码，该方法的格式如下：
 
 public class Test2 {
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) throws Exception {
         // 获取当前系统编码
         System.out.println("系统默认编码：" + System.getProperty("file.encoding"));//UTF-8
         //定义一个文件对象，参数为文件的地址，直接使用构造函数。
