@@ -94,6 +94,5 @@ public class ProductorAndConsumer {
         t3.start();
         t4.start();
 
-
     }
 }

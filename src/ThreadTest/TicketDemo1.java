@@ -27,7 +27,7 @@ class Tick implements Runnable {
     public void run() {
         while (true)
             //修改如下
-            synchronized (ob) {//ob就是锁！！！！！！！
+           synchronized (ob) {//ob就是锁！！！！！！！
                 if (num > 0)
                     show();
             }

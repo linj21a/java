@@ -8,13 +8,12 @@ class Tick2 implements Runnable {
     //使用同步代码块的时候，琐是固定的，但是可以是任意对象
     final Object ob = new Object();//常常定义为只允许赋值一次的对象锁！
     public boolean flag = true;
-
     public void run() {
         if (flag) {
             while (true)
                 //修改如下
                 // synchronized (this){//同步代码块 ob就是锁！！！！！！！
-                synchronized (this.getClass()) {//同步代码块 ob就是锁！！！！！！！
+                synchronized (this.getClass()) {//同步代码块
                     if (num > 0) {
                         try {
                             Thread.sleep(10);
@@ -22,7 +21,6 @@ class Tick2 implements Runnable {
                         }//注意这里可能抛出异常，要么使用try'catch普抓或者声明！注意run无法声明异常
                         System.out.println(Thread.currentThread().getName() + "obj:。。。" + num--);
                     }
-
                 }
 
         } else {
@@ -30,9 +28,7 @@ class Tick2 implements Runnable {
                 show();
         }
 
-
     }
-
     synchronized static void show() {//同步函数
         // synchronized void show(){//同步函数
 

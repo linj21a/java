@@ -1,0 +1,53 @@
+package classandobject;
+
+public class Person extends Object implements Comparable {
+    private String name;
+    private int age;
+
+
+    public Person(String name,int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if(!(o instanceof Person))
+            throw new ClassCastException("类型错误！");
+        Person p = (Person)o;
+        int temp = this.age-p.age;
+        return temp==0?this.name.compareTo(p.name):temp;
+    }
+    @Override
+    public boolean equals(Object o){
+        System.out.println("重复元素"+this.name+"的hash值相同时比较内容调用equals方法");
+        if(!(o instanceof Person))
+            throw new ClassCastException("类型错误！");
+        Person p = (Person)o;
+        int temp = this.age-p.getAge();
+        boolean res = temp==0?this.name.equals(p.getName()):false;
+        return  res;
+    }
+    @Override
+    public int hashCode(){
+        System.out.println("我的hashCode方式是调用name.hashCode"+this.name+"!!!");
+        return this.name.hashCode();
+    }
+
+}
