@@ -1,6 +1,6 @@
 package classandobject;
 
-public class Person extends Object implements Comparable {
+public class Person  implements Comparable<Person> {
     private String name;
     private int age;
 
@@ -27,12 +27,11 @@ public class Person extends Object implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        if(!(o instanceof Person))
-            throw new ClassCastException("类型错误！");
-        Person p = (Person)o;
-        int temp = this.age-p.age;
-        return temp==0?this.name.compareTo(p.name):temp;
+    public int compareTo(Person o) {
+        if(o == null)
+            throw new NullPointerException("传入类型为空！");
+        int temp = this.age- o.age;
+        return temp==0?this.name.compareTo(o.name):temp;
     }
     @Override
     public boolean equals(Object o){
@@ -41,8 +40,7 @@ public class Person extends Object implements Comparable {
             throw new ClassCastException("类型错误！");
         Person p = (Person)o;
         int temp = this.age-p.getAge();
-        boolean res = temp==0?this.name.equals(p.getName()):false;
-        return  res;
+        return temp == 0 && this.name.equals(p.getName());
     }
     @Override
     public int hashCode(){

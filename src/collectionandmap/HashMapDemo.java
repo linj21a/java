@@ -53,10 +53,10 @@ public class HashMapDemo {
         map.put(23,"zhanwang");
         map.put(22,"sjfslf");
         map.put(22,"xiugai");
+        map.put(null,null);//HashMap支持空键空值，HashTable不支持空键空值。
         Set<Integer> set = map.keySet();
-        for(Iterator<Integer>it=set.iterator();it.hasNext();){
-            Integer i = it.next();
-            System.out.println("名字是："+map.get(i)+"年龄是："+i);
+        for (Integer i : set) {
+            System.out.println("名字是：" + map.get(i) + "年龄是：" + i);
         }
 
     }
