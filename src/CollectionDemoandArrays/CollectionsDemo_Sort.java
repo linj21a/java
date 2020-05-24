@@ -1,4 +1,4 @@
-package collectionandmap;
+package CollectionDemoandArrays;
 
 import java.util.*;
 
@@ -7,10 +7,13 @@ import java.util.*;
  * 抽取了集合里边的
  * 场景联想：假设我们需要一个容器来存储我们的重复元素，同时又要排序。只能使用list存储，但无法保证排序
  * 所以需要一个工具来实现辅助排序。——Collections。sort方法。
- * Collection.sort——List.sort
+ * Collection.sort或者List.sort
+ * 求最大值最小值——max,min
+ * 折半查找——binarySearch()对于的集合必须能排序，且要有角标，也就是list
+ * 交换两个元素位置——Swap（list<?>list,int i,int j)
  */
 
-public class CollectionsDemo {
+public class CollectionsDemo_Sort {
     public static void main(String[]args){
         List<String> list = new ArrayList<>();
         String[]s = {"jsflsj","aaa","aaaa","aa","ccc","ddd","zzzzdf"};
