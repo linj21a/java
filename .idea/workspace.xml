@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79aaa80e-4a60-4f37-972f-bf4a398e8f16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/collectionandmap/CollectionsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collectionandmap/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionDemoandArrays/CollectionsDemo_Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +60,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/visualgo" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Program Files\JetBrains\JavaLearningStory\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionsToArrayDemo">
-    <configuration name="Array_asList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionDemoandArrays.Array_asList" />
+  <component name="RunManager" selected="Application.Practice5_OutputStream">
+    <configuration name="FinallyAndReturnAndThrow3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="面试题.FinallyAndReturnAndThrow3" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionDemoandArrays.*" />
+          <option name="PATTERN" value="面试题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsDemo_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionDemoandArrays.CollectionsDemo_BinarySearch" />
+    <configuration name="Practice4_MyBufferedReader_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream_IntOut.Practice4_MyBufferedReader_test" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionDemoandArrays.*" />
+          <option name="PATTERN" value="Stream_IntOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsToArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionDemoandArrays.CollectionsToArrayDemo" />
+    <configuration name="Practice5_FileInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream_IntOut.Practice5_FileInputStream" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionDemoandArrays.*" />
+          <option name="PATTERN" value="Stream_IntOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionDemoandArrays.SynchronizedDemo" />
+    <configuration name="Practice5_InputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream_IntOut.Practice5_InputStream" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionDemoandArrays.*" />
+          <option name="PATTERN" value="Stream_IntOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testnametype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionDemoandArrays.testnametype" />
+    <configuration name="Practice5_OutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream_IntOut.Practice5_OutputStream" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionDemoandArrays.*" />
+          <option name="PATTERN" value="Stream_IntOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionsToArrayDemo" />
-        <item itemvalue="Application.Array_asList" />
-        <item itemvalue="Application.testnametype" />
-        <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.CollectionsDemo_BinarySearch" />
+        <item itemvalue="Application.Practice5_OutputStream" />
+        <item itemvalue="Application.Practice5_FileInputStream" />
+        <item itemvalue="Application.Practice5_InputStream" />
+        <item itemvalue="Application.Practice4_MyBufferedReader_test" />
+        <item itemvalue="Application.FinallyAndReturnAndThrow3" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +229,13 @@
       <workItem from="1590060419862" duration="638000" />
       <workItem from="1590240667332" duration="4161000" />
       <workItem from="1590278451246" duration="5559000" />
-      <workItem from="1590285791878" duration="2214000" />
+      <workItem from="1590285791878" duration="7435000" />
+      <workItem from="1590322083184" duration="7737000" />
+      <workItem from="1590371808632" duration="9851000" />
+      <workItem from="1590407922335" duration="7095000" />
+      <workItem from="1590460817748" duration="9662000" />
+      <workItem from="1590496048377" duration="2761000" />
+      <workItem from="1590544471841" duration="4804000" />
     </task>
     <task id="LOCAL-00001" summary="版本进度:网络编程">
       <created>1587268680942</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589867771943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="集合框架完毕">
+      <created>1590288237779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590288237779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +296,8 @@
     <MESSAGE value="版本进度:网络编程" />
     <MESSAGE value="第300集" />
     <MESSAGE value="fianlly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fianlly" />
+    <MESSAGE value="集合框架完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合框架完毕" />
   </component>
   <component name="WindowStateProjectService">
     <state x="467" y="81" key="#HeapSort" timestamp="1587374335404">
@@ -312,38 +324,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="472" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585920149726" />
-    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1590282320289">
+    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1590375523728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590282320289" />
+    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590375523728" />
     <state x="608" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587564157652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="608" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1587564157652" />
-    <state x="350" y="6" key="CommitChangelistDialog2" timestamp="1589867770058">
+    <state x="350" y="6" key="CommitChangelistDialog2" timestamp="1590288235326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="350" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589867770058" />
+    <state x="350" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590288235326" />
     <state x="807" y="227" key="FileChooserDialogImpl" timestamp="1589772141951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="807" y="227" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589772141951" />
-    <state width="1493" height="175" key="GridCell.Tab.0.bottom" timestamp="1590288178852">
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom" timestamp="1590549011503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590288178852" />
-    <state width="1493" height="175" key="GridCell.Tab.0.center" timestamp="1590288178852">
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590549011503" />
+    <state width="1493" height="154" key="GridCell.Tab.0.center" timestamp="1590549011503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590288178852" />
-    <state width="1493" height="175" key="GridCell.Tab.0.left" timestamp="1590288178852">
+    <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590549011503" />
+    <state width="1493" height="154" key="GridCell.Tab.0.left" timestamp="1590549011502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590288178852" />
-    <state width="1493" height="175" key="GridCell.Tab.0.right" timestamp="1590288178852">
+    <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590549011502" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right" timestamp="1590549011503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590288178852" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590549011503" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1589460518861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -360,14 +372,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589460518861" />
-    <state x="291" y="81" width="996" height="707" key="SettingsEditor" timestamp="1589773145001">
+    <state x="291" y="81" width="996" height="707" key="SettingsEditor" timestamp="1590322509836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="291" y="81" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589773145001" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589867793314">
+    <state x="291" y="81" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590322509836" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590288247947">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589867793314" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590288247947" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587692303693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -388,10 +400,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="753" y="23" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586399190163" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590284493766">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590549406750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590284493766" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590549406750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
