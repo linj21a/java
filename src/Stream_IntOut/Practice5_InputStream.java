@@ -10,13 +10,13 @@ import java.io.InputStream;
  * extends Object
  * implements Closeable此抽象类是表示输入字节流的所有类的超类。顶层类。
  * 需要定义子类InputStream应用程序必须始终提供返回输入的下一个字节的方法。
- *
+ * <p>
  * 直接子类：AudioInputStream ， ByteArrayInputStream ， FileInputStream ，
  * FilterInputStream ， ObjectInputStream ， PipedInputStream ， SequenceInputStream ，
  * StringBufferInputStream
- *
+ * <p>
  * 常用子类：FileInputStream
- *
+ * <p>
  * 常用方法：
  * 1、int available() 返回估计的文件字节大小
  * 2、void close() 关闭此输入流并释放与该流关联的所有系统资源。  字节流不需要刷新，因为写的是字节，直接写入不需要缓冲。
@@ -24,19 +24,19 @@ import java.io.InputStream;
  * 4、int read​(byte[] b) 从输入流中读取一些字节数并将它们存储到缓冲区数组 b 。
  * 5、int read​(byte[] b, int off, int len) 从输入流 len最多 len字节的数据读入一个字节数组。
  * 6、long skip​(long n) 跳过并丢弃此输入流中的 n字节数据。
- *
+ * <p>
  * 基本操作与字符流类似。但是其不需要刷新流——flush，有一些子类需要有，而一些子类不需要。
  */
 
 public class Practice5_InputStream {
-    public static void main(String[]args) throws IOException {
+    public static void main(String[] args) throws IOException {
         InputStream inputs = new FileInputStream("E:\\file.txt");
 
         //方式一读取，推荐使用方式一，安全。
-        byte[]buff1 = new byte[1024];//申请1k大小的空间，当文件过大时也不会发生内存溢出
-        int len =0;
-        while ((len=inputs.read(buff1))!=-1){
-            System.out.println(new String(buff1,0,len));
+        byte[] buff1 = new byte[1024];//申请1k大小的空间，当文件过大时也不会发生内存溢出
+        int len = 0;
+        while ((len = inputs.read(buff1)) != -1) {
+            System.out.println(new String(buff1, 0, len));
         }
 
        /* //方式二：

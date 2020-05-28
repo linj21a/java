@@ -1,4 +1,4 @@
-package 设计模式;
+package 设计模式.singlePattern;
 
 /**
  * 设计模式：对问题行之有效的解决方法，其实是一种思想。
@@ -17,7 +17,7 @@ package 设计模式;
 
 public class Practice1 {
     private String name = "猪猪";
-    private static Practice1 test1 = new Practice1();//创建一个本类实例，且static
+    private static Practice1 test1 = new Practice1();//创建一个本类实例，且static，饿汉式
 
     private Practice1() {
     }//构造方法私有化

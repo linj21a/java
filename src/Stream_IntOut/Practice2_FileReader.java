@@ -19,18 +19,17 @@ import java.io.IOException;
  * FileReader​(File file, Charset charset) 创建一个新的FileReader ，给出File读取和charset 。
  * FileReader​(String fileName) 使用平台 default charset创建一个新的 FileReader ，给定要读取的文件的 名称 。
  * FileReader​(String fileName, Charset charset) 给定要读取的文件的名称和FileReader ，创建一个新的FileReader 。
- *
+ * <p>
  * 理解：先建立一个字符输入流与一个文件相关联，一样会调用window的硬盘资源。
- *
  */
 
 public class Practice2_FileReader {
-    public static void main(String[]args) throws IOException {
+    public static void main(String[] args) throws IOException {
         FileReader fw = new FileReader("E:\\file.txt");
-        char[]buff = new char[1024];//常常定义为1024的整数次幂，这样在下面的while里边读取的次数较少，加快效率。
-        int len=0;
-        while((len=fw.read(buff))!=-1){//可能抛出异常二
-            System.out.println(new String(buff,0,len));
+        char[] buff = new char[1024];//常常定义为1024的整数次幂，这样在下面的while里边读取的次数较少，加快效率。
+        int len = 0;
+        while ((len = fw.read(buff)) != -1) {//可能抛出异常二
+            System.out.println(new String(buff, 0, len));
         }
 
         //用完记得关闭资源

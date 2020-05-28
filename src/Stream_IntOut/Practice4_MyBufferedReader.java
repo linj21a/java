@@ -12,32 +12,32 @@ import java.io.IOException;
 public class Practice4_MyBufferedReader {
     private FileReader r;
     //1、定义一个字符缓冲区用于缓存字符
-    char[]buff = new char[1024];
+    char[] buff = new char[1024];
 
     //2、定义一个指针标记当前读取的位置。当读取满了就重置为0，进行下一次的读取。
-    int pos= 0;
+    int pos = 0;
     //3、定义一个计数器，用于计算从硬盘中读取的数据值，当其递减为0，说明缓冲区的数据已经被读取完，需要重新从硬盘读取。
     int count = 0;
 
     /**
      * 构造器
+     *
      * @param r 传入的文件输出流对象 FileReader r;
      */
-    public Practice4_MyBufferedReader(FileReader r){
+    public Practice4_MyBufferedReader(FileReader r) {
         this.r = r;
     }
 
     /**
      * 实现BufferReader的read方法——每次缓冲区读取一个字符，读取到末尾返回-1；
-     *
      */
-    public int myRead()throws IOException{
+    public int myRead() throws IOException {
         //基于下面的代码进行优化
-        if(count==0){
+        if (count == 0) {
             count = r.read(buff);
             pos = 0;
         }
-        if(count<0)
+        if (count < 0)
             return -1;
         char ch = buff[pos++];
         count--;
@@ -66,25 +66,27 @@ public class Practice4_MyBufferedReader {
 
     /**
      * 实现一次读取一行的功能，利用了自己的read方法，每次从自己的缓冲区中读取一行。返回字符串
+     *
      * @return 返回该行字符串。
      */
     public String myReadLine() throws IOException {
         StringBuilder sb = new StringBuilder();//用来存放行数据的临时缓冲区容器
         int len;
-        while((len=myRead())!=-1){
+        while ((len = myRead()) != -1) {
             //注意判断换行符号
-            if(len=='\r')
+            if (len == '\r')
                 continue;
-            if(len=='\n')
+            if (len == '\n')
                 return sb.toString();//完读取一行
-            sb.append((char)len);
+            sb.append((char) len);
         }
         //当剩下的数据没有'\n'的时候，我们如何将剩下的数据返回呢？
-        if(sb.length()>0){
+        if (sb.length() > 0) {
             return sb.toString();
         }
         return null;
     }
+
     public void close() throws IOException {//关闭流
         r.close();
     }

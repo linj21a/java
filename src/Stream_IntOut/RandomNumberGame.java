@@ -149,7 +149,7 @@ public class RandomNumberGame {
             System.out.println("付费成功！你已经是vip客户，开始畅行游戏！");
         } else {
             //读取flag文件修改其中的flag参数
-            byte[] buff = new byte[150];
+            byte[] buff;
             buff = ("flag=0").getBytes();
             f.write(buff);
             f.close();
@@ -196,7 +196,7 @@ public class RandomNumberGame {
     /**
      * 判断当前客户是否是vip客户
      *
-     * @return
+     * @return 布尔值，判断的标记
      */
     public boolean getFlag() {
         try {

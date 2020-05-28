@@ -9,15 +9,15 @@ import java.io.OutputStream;
  * public abstract class OutputStream
  * extends Object
  * implements Closeable, Flushable此抽象类是表示输出字节流的所有类的超类。顶层父类
- *
+ * <p>
  * 输出流接受输出字节并将它们发送到某个接收器。
  * 需要定义OutputStream的子类的应用程序必须始终至少提供一个写入一个输出字节的方法。
- *
+ * <p>
  * 直接子类：
  * ByteArrayOutputStream ， FileOutputStream ， FilterOutputStream ， ObjectOutputStream ， PipedOutputStream
- *
+ * <p>
  * 我们找到FileOutputStream子类来演示
- *
+ * <p>
  * 该父类的方法：
  * void close() 关闭此输出流并释放与此流关联的所有系统资源。
  * void flush() 刷新此输出流并强制写出任何缓冲的输出字节。
@@ -28,7 +28,7 @@ import java.io.OutputStream;
  */
 
 public class Practice5_OutputStream {
-    public static void main(String[]args) throws IOException {
+    public static void main(String[] args) throws IOException {
         OutputStream outs = new FileOutputStream("E:\\OutStreamDemo.txt");
 
         outs.write("abcsefldj".getBytes());

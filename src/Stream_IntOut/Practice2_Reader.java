@@ -17,15 +17,14 @@ import java.io.Reader;
  * BufferedReader ， CharArrayReader ， FilterReader ， InputStreamReader ， PipedReader ， StringReader ， URLReader
  * 常用的间接子类：
  * FileReader
- *
- * */
+ */
 public class Practice2_Reader {
-    public static void main(String[]args) throws IOException {
+    public static void main(String[] args) throws IOException {
         Reader fw = new FileReader("E:\\file.txt");//可能抛出异常一
-        char[]buff = new char[1024];//常常定义为1024的整数次幂，这样在下面的while里边读取的次数较少，加快效率。
-        int len=0;
-        while((len=fw.read(buff))!=-1){//可能抛出异常二
-            System.out.println(new String(buff,0,len));
+        char[] buff = new char[1024];//常常定义为1024的整数次幂，这样在下面的while里边读取的次数较少，加快效率。
+        int len = 0;
+        while ((len = fw.read(buff)) != -1) {//可能抛出异常二
+            System.out.println(new String(buff, 0, len));
         }
         //记得关闭资源
         fw.close();

@@ -1,4 +1,8 @@
-package 设计模式;
+package 设计模式.singlePattern;
+
+/**
+ * 测试单例设计模式
+ */
 
 
 public class Test1 {

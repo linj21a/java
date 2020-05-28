@@ -8,42 +8,38 @@ import java.io.*;
 
 public class GetFileName {
 
-    public static void main(String[]args) throws IOException {
-        File[]array =null;
+    public static void main(String[] args) throws IOException {
+        File[] array = null;
         StringBuilder s = new StringBuilder(700);
         String path = "E:\\百度网盘下载\\java学习路线\\第一阶段 基础javaEE\\黑马程序员_历经5年锤炼(适合初学者入门)\\";
-        FileOutputStream fw = new FileOutputStream("E:\\words.txt");//默认会覆盖原内容。
-        getFileName(path,s,fw);
+        FileOutputStream fw = new FileOutputStream("E:\\第二阶段大纲.txt");//默认会覆盖原内容。
+        getFileName(path, s, fw);
 
-        for(int i=0;i<s.length();i++){
-            fw.write((s.charAt(i)+"").getBytes());
+        for (int i = 0; i < s.length(); i++) {
+            fw.write((s.charAt(i) + "").getBytes());
         }
 
     }
 
-    private static void getFileName(String path,StringBuilder s,FileOutputStream fw) throws IOException {
+    private static void getFileName(String path, StringBuilder s, FileOutputStream fw) throws IOException {
         File f = new File(path);
-        File[]array = f.listFiles();
-        for(int i=0;i<array.length;i++)
-        {
+        File[] array = f.listFiles();
+        for (int i = 0; i < array.length; i++) {
 
-            if(array[i].isFile()){//判断是否为文件
+            if (array[i].isFile()) {//判断是否为文件
                 //fname.append(array[i].getName());
-                System.out.println("文件名\t"+array[i].getName());
-                s.append(array[i].getName()+"\n");
+                System.out.println("文件名\t" + array[i].getName());
+                s.append(array[i].getName() + "\n");
 
 
-            }
-            else if(array[i].isDirectory()&&!(array[i].getName().equals("历经5年锤炼(适合初学者入门的Java基础视频Code"))){
-                System.out.println("\t"+array[i].getName()+"\t");
-                getFileName(array[i].getPath(),s,fw);
+            } else if (array[i].isDirectory() && !(array[i].getName().equals("历经5年锤炼(适合初学者入门的Java基础视频Code"))) {
+                System.out.println("\t" + array[i].getName() + "\t");
+                getFileName(array[i].getPath(), s, fw);
                 System.out.println("---------------------");
             }
 
 
         }
-
-
 
 
     }

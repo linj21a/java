@@ -9,16 +9,16 @@ import java.io.Writer;
  * 只涉及两个动作——读、写。
  * 读：将外设上的数据读取到内存中，即输入。
  * 写：将内存里边的数据写入外设，就是输出。
- *
+ * <p>
  * 字符流的由来：
- *      字节流读文字的字节数据，并不直接操作数据，而是根据指定的编码表获取对应的文字信息。再对这个文字进行操作。
- *      简单点说就是——字节流+编码类。
+ * 字节流读文字的字节数据，并不直接操作数据，而是根据指定的编码表获取对应的文字信息。再对这个文字进行操作。
+ * 简单点说就是——字节流+编码类。
  * IO流体系
  * 字节流最顶层：InputStream（输入流）
- *              OutputStream（输出流）
+ * OutputStream（输出流）
  * 字符流最顶层：Reader(读，输入流)
- *              Writer(写、输出流)
- *
+ * Writer(写、输出流)
+ * <p>
  * 现在先学习Writer
  * public abstract class Writer
  * extends Object
@@ -26,19 +26,18 @@ import java.io.Writer;
  * 抽象字符流顶层父类，用于写入字符流的抽象类。 子
  * 类必须实现的唯一方法是write（char []，int，int），flush（）和close（）。
  * 但是，大多数子类将覆盖此处定义的一些方法，以提供更高的效率，附加功能或两者兼而有之。
- *
+ * <p>
  * 子类：BufferedWriter ，
  * CharArrayWriter ， FilterWriter ， OutputStreamWriter ， PipedWriter ， PrintWriter ， StringWriter
- *
+ * <p>
  * 既然是抽象类我们就需要找一个子类来玩一下：FileWriter
- *
+ * <p>
  * 需求：需要将用户的数据写入到硬盘里边。
- *
  */
 
 public class Practice1_Writer {
-    public static void main(String[]args)throws IOException {
-        Writer fw =  new FileWriter("E:file.txt");//打开一个Writer流——字符输出流
+    public static void main(String[] args) throws IOException {
+        Writer fw = new FileWriter("E:file.txt");//打开一个Writer流——字符输出流
 
         fw.write("file先存到缓冲区里边。");//这样写，是不会立即输出的。而是将字符串先暂存到字符缓冲区。
 

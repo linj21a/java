@@ -1,4 +1,4 @@
-package 设计模式;
+package 设计模式.singlePattern;
 
 public class Practice2 {
     private String name = "猪猪";
@@ -9,7 +9,7 @@ public class Practice2 {
 
     public static Practice2 getInstance() {//创建能返回的实例，static实现大家使用同一个对象
         if(test1==null){
-            test1 = new Practice2();
+            test1 = new Practice2();//懒汉式
         }
         return test1;
     }//而且可以在该函数上面添加泛型限制。
