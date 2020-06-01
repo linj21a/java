@@ -1,0 +1,43 @@
+public void store​(OutputStream out, String comments) throws IOException
+将此Properties表中的此属性列表（键和元素对）以适合使用load(InputStream)方法加载到Properties表的格式写入输出流。
+此方法不会写出此Properties表（如果有）的默认表中的属性。
+
+此方法以与store(Writer)中指定的格式相同的格式输出注释，属性键和值，但有以下区别：
+
+使用ISO 8859-1字符编码写入流。
+注释中不在Latin-1中的字符被写为\u xxxx，用于它们适当的unicode十六进制值xxxx 。
+字符小于\u0020和大于字符\u007E在属性键或值被写为\u XXXX为适当的十六进制值XXXX。
+写入条目后，将刷新输出流。 此方法返回后，输出流保持打开状态。
+
+参数
+out - 输出流。
+comments - 属性列表的描述。
+异常
+IOException - 如果将此属性列表写入指定的输出流，则抛出 IOException 。
+ClassCastException - 如果此 Properties对象包含任何不是 Strings键或值。
+NullPointerException - 如果 out为空。
+从以下版本开始：
+1.2
+
+所以
+ Writer writer = new FileWriter("E:\\info");
+
+
+        myproperties.store(writer,"name+你");//一个注意事项,这里别写中文
+        /*info文件信息
+         * #name+age
+         * #Sun May 31 17:56:56 CST 2020
+         * lishi=16
+         * wusun=32
+         * wenyiduo=55
+         * zhansan=22
+         */
+        //写中文
+        /*
+#name+\u4F60（显示不了中文。）
+#Sun May 31 18:03:32 CST 2020
+lishi=16
+wusun=32
+wenyiduo=55
+zhansan=22
+         */
