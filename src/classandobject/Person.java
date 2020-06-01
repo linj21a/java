@@ -1,9 +1,11 @@
 package classandobject;
 
-public class Person  implements Comparable<Person> {
-    private String name;
-    private int age;
+import java.io.Serializable;
 
+public class Person  implements Comparable<Person>, Serializable {//比较、序列化
+    private static final long serialVersionUID = 123456788L;
+    private String name;
+    private  int age;
 
     public Person(String name,int age) {
         this.name = name;
