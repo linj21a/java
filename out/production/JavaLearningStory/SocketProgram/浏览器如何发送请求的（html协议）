@@ -1,0 +1,59 @@
+
+浏览器向服务器发送请求是怎么发送的（http协议下）
+
+1、请求行：请求命令：Get 请求资源：/  http协议版本： HTTP/1.1（三部分）http的协议目前只有1.0，1.1
+GET / HTTP/1.1
+2、请求消息头：
+Accept: text/html, application/xhtml+xml, image/jxr, */*————浏览器可以解析的文件格式
+Accept-Language: zh-CN——————————————————————————————————————浏览器可以解析语言，可以自己在浏览器设置
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko——使用者的主机信息
+Accept-Encoding: gzip, deflate——————————————————————————————浏览器接受的压缩格式，因为数据大的时候，如果将数据原样发送给浏览器客户端
+Host: 127.0.0.1:9090—————————客户端主机信息                   很慢，这个时候服务器可以进行压缩，然后浏览器按照同样的格式解压缩即可。提高效率
+Connection: Keep-Alive————————连接的形式：1、close；2、keep-Alive
+//空行————————————————————————添加空行用于分割请求消息头和请求体。
+3、请求体
+。。。
+。。。
+。。
+--------------------------------------------------
+服务器是怎么解析请求的：
+根据请求的格式，不同的请求命令有不同的解析格式和响应格式。如get就使用get对应的解析和响应
+post就使用post。
+
+
+
+在浏览器收到服务器的应答：
+HTTP/1.1 200————————————————————————————————————————————应答行：包括协议版本，应答状态码，应答状态描述
+Server: nginx——————————————————————————————————————————应答消息属性信息；属性名、属性值
+Date: Mon, 08 Jun 2020 09:29:22 GMT————————————————————用来提高效率用，本地缓冲的网页和服务器一致则使用本地数据。
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Server-Host: hzabj-mooc-online-new34
+Set-Cookie: NTESSTUDYSI=59789c22bccc4bb6a0172f378d2b001c; Domain=icourse163.org; Path=/
+Set-Cookie: EDUWEBDEVICE=2f73ef659e20463c8d818514c07b5090; Domain=icourse163.org; Expires=Sat, 07-Jun-2025 09:29:22 GMT; Path=/
+X-Application-Context: mooc:online:18382
+Cache-Control: no-cache, must-revalidate
+Expires: Sat, 20 Jul 2010 11:11:11 GMT
+Pragma: no-cache
+Content-Language: zh-CN
+                           ——————————————————————————————————空行，分割应答消息属性信息和应答体
+bdb2 ————————————————————————————————————————————————————————应答体。
+ <script>
+// 瑙ｅ喅鏂拌?佹妧鏈珯涓閮ㄥ垎鍘熺敓鏂规硶鍏煎
+Object.defineProperty(window, "moocTempReplace", {
+enumerable: false,
+configurable: false,
+writable: false,
+value: String.prototype.replace
+});
+Object.defineProperty(window, "moocTempMatch", {
+enumerable: false,
+configurable: false,
+writable: false,
+value: String.prototype.match
+});
+</script>
+<!DOCTYPE html>
+。。。。。。。。。。。。。。。。————————————————————————————————应答体。

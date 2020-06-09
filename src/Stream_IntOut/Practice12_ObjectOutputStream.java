@@ -33,16 +33,12 @@ import java.io.*;
  * 以便可以将对象的图形恢复为与写入原始图像时相同的形状。
  *
  * 例如，编写一个可以由ObjectInputStream中的示例读取的对象：
- *
- *
  *   FileOutputStream fos = new FileOutputStream("t.tmp");
- *       ObjectOutputStream oos = new ObjectOutputStream(fos);
- *
- *       oos.writeInt(12345);
- *       oos.writeObject("Today");
- *       oos.writeObject(new Date());
- *
- *       oos.close();
+ *   ObjectOutputStream oos = new ObjectOutputStream(fos);
+ *      oos.writeInt(12345);
+ *      oos.writeObject("Today");
+ *      oos.writeObject(new Date());
+ *      oos.close();
  *
  */
 
@@ -71,6 +67,7 @@ public class Practice12_ObjectOutputStream {
         System.out.println(p.getName()+" :"+p.getAge());
         //接下来演示静态变量无法写入对象时存储到硬盘。
         //将age改为了静态。
+
         /*
         结果：lisi :0，明明我们存放的不该是lisi 22吗?说明静态变量根本没有存进去。
          */
