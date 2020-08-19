@@ -12,7 +12,7 @@ public class Chapter1_5_EchoClient {
         socket = new Socket(host,port);
     }
     public static void main(String[]args) throws IOException {
-        new Chapter1_5_EchoClient(9000).talk();
+        new Chapter1_5_EchoClient(9001).talk();
     }
 
     private void talk() {
@@ -22,7 +22,7 @@ public class Chapter1_5_EchoClient {
             BufferedReader localReader = new BufferedReader(new InputStreamReader(System.in));
             String msg;
             while((msg=localReader.readLine())!=null){
-                pw.print(msg);//发送信息,println改为print,此时服务器的readline（）方法始终认为没有读取完一行，进而阻塞了。
+                pw.println(msg);//发送信息,println改为print,此时服务器的readline（）方法始终认为没有读取完一行，进而阻塞了。
                 //假设现在输入bye，因为有socket.close,则进行关闭时会默认给readline()方法加上结束标记。进而实现关闭该客户端和服务端的连接。
                 //但是此时的bye是没有发出去的。因为readline方法认为它没有读完数据。
                 if(msg.equals("bye")){

@@ -28,9 +28,10 @@ public class Practice8_FileFilter {
     static int lineNumber = 0;//定义一个文件用于遍历java文件里边的代码行数。
 
     public static void main(String[] args) throws IOException {
-        File file = new File("D:\\Program Files\\JetBrains\\JavaLearningStory");
+       /* File file = new File("D:\\Program Files\\JetBrains\\JavaLearningStory");*/
+        File file = new File("D:\\Program Files\\JetBrains\\BooksMangementSystem");
         fileDeepTraver(file);
-        System.out.println("从3月到6月初以来，创建的总文件数量：" + count +
+        System.out.println("6天半，独立完成的总文件数量：" + count +
                 " 总代码大小：" + size + "字节 总代码行数：" + lineNumber);
     }
 

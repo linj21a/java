@@ -38,6 +38,7 @@ public class LambdaAndNei {
     public static void main(String[] args) {
         LambdaAndNei lambda = new LambdaAndNei();
         lambda.test();
+
     }
 
 }

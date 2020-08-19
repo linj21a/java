@@ -38,8 +38,8 @@ public class MyHashSet<T>   {
     public MyHashSet(T[]values){
         this(values.length*4/3);
         //构造散列表，将values数组元素变为构造元素
-        for(int i=0;i<values.length;i++){
-            this.add(values[i]);
+        for (T value : values) {
+            this.add(value);
         }
     }
     /**
@@ -67,8 +67,8 @@ public class MyHashSet<T>   {
                 this.Table[i]=new SinglyList<T>();
             }
             this.count=0;
-            for(int i=0;i<temp.length;i++){
-                for(Node<T>p=temp[i].head.next;p!=null;p=p.next){
+            for (SinglyList<T> tSinglyList : temp) {
+                for (Node<T> p = tSinglyList.head.next; p != null; p = p.next) {
                     this.add(p.data);
                 }
             }
@@ -96,7 +96,7 @@ public class MyHashSet<T>   {
 
     /**
      * 判断哈希表是否为空
-     * @return
+     * @return 判断结果
      */
     public boolean isEmpty(){
         if(this.count==0)
@@ -132,12 +132,12 @@ public class MyHashSet<T>   {
         }
     }
     public void show(){
-        for(int i=0;i<this.Table.length;i++){
-            if(this.Table[i].head.next!=null){
-                Node<T>p=this.Table[i].head.next;
-                while(p!=null){
+        for (SinglyList<T> tSinglyList : this.Table) {
+            if (tSinglyList.head.next != null) {
+                Node<T> p = tSinglyList.head.next;
+                while (p != null) {
                     System.out.println(p.data.toString());
-                    p=p.next;
+                    p = p.next;
                 }
             }
         }
@@ -168,7 +168,7 @@ public class MyHashSet<T>   {
          MyHashSet.Node<T> head;
 
         {
-            head = new Node<T>(null, null, null);
+            head = new Node<>(null, null, null);
         }
 
         public boolean insertDifferent(T value){
@@ -186,7 +186,7 @@ public class MyHashSet<T>   {
         public T remove(T key){
 
             MyHashSet.Node<T> p=head;
-            MyHashSet.Node<T> temp=null;
+            MyHashSet.Node<T> temp;
             while(p.next!=null){
                 p = p.next;
                 if(p.data.equals(key)){
@@ -195,7 +195,6 @@ public class MyHashSet<T>   {
                     if(temp!=null)
                         temp.prev = p.prev;
                     T e = p.data;
-                    p=null;
                     return e;
                 }
 

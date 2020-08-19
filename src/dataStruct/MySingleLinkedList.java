@@ -8,7 +8,7 @@ public class MySingleLinkedList<T> {
     Node<T> head;
 
     {
-        head = new Node<T>(null, null, null);
+        head = new Node<>(null, null, null);
     }
 
     public boolean insertDifferent(T value) {
@@ -20,7 +20,7 @@ public class MySingleLinkedList<T> {
                 return false;
         }
         //p。next==null
-        p.next = new Node<T>(p, value, null);
+        p.next = new Node<>(p, value, null);
         return true;
     }
 

@@ -5,9 +5,8 @@ public class Practice {
         int n1 = 10;
         int n2 = 5;
         // 打印加法计算结果
-        display((a, b) -> {
-            return a + b;
-        }, n1, n2);
+        display(Integer::sum, n1, n2);
+        // display((a, b) -> a + b, n1, n2);
         // 打印减法计算结果
         display((a, b) -> a - b, n1, n2);
     }

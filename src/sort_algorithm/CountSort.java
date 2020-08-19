@@ -4,6 +4,7 @@ package sort_algorithm;
  * 目的：练习计数排序
  */
 
+
 public class CountSort {
     public static void countSort(int[] array) {
         countSort(array, true);//默认升序排序

@@ -37,7 +37,7 @@ public class TreeSetDemo {
         ts1.add(new Person("Xiaowu", 44));
         ts1.add(new Person("zhousan", 4));
         ts1.add(new Person("zhouwan", 14));
-        Iterator it = ts1.iterator();
+        Iterator<?> it = ts1.iterator();
         while (it.hasNext()) {
             Person p = (Person) it.next();
             System.out.println(p.getName() + ".." + p.getAge());
@@ -45,7 +45,7 @@ public class TreeSetDemo {
         System.out.println("____方式二____");
         //方式二：使用了自定义的比较器——comparatorDemo,因为string里面是按字典顺序排序的compareTo，
         //假设我们现在要先比较长度，长度相同才比较字典顺序。
-        TreeSet<String> ts2 = new TreeSet(new ComparatorDemo());
+        TreeSet<String> ts2 = new TreeSet<String>(new ComparatorDemo());
         ts2.add("aaa");
         ts2.add("bbb");
         ts2.add("ccccc");
