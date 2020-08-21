@@ -2,152 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79aaa80e-4a60-4f37-972f-bf4a398e8f16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainBoard.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice1_FrameBaseUse$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice1_FrameBaseUse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice1_Frame_Button$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice1_Frame_Button.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice2_MouseListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice2_MouseListener$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice2_MouseListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice2_TestField_Frame_Button$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice2_TestField_Frame_Button.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice3_TextField_Input$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice3_TextField_Input$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice3_TextField_Input$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice3_TextField_Input.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice4_Program2_TimeLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice4_ShowDirProgram1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice4_ShowDirProgram1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice4_ShowDirProgram1$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/GUI_easyKnowledge/Practice4_ShowDirProgram1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice1_ClassDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice2_GetConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice2_GetField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice2_GetMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice3_GetConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice4_GetMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice5_GetField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice6_MainBoard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice6_PIC_Interface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice6_ReflectTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice6_SoundCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/RegexLearning/Practice0_RegexDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/RegexLearning/Practice1_Match.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/RegexLearning/Practice1_ReplaceAll.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/RegexLearning/Practice1_Split.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/RegexLearning/regex_Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Chapter1_1_EchoPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Chapter1_5_EchoClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Chapter1_5_EchoServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Chapter2_6_SMTPSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Chapter2_8test_HTTPServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/EchoClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/EchoServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice1_InetAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice1_ServerSocket_Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice1_Socket_Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice2_DatagramSocket_UDPReceive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice2_DatagramSocket_UDPSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice2_ThreadDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice3_TCP_FileServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice3_TCP_FileUpload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice4_MyBrowser_Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/Practice4_MyBrowser_Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/SocketProgram/浏览器如何发送请求的（html协议）" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Input.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Out.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice13_PipeInput_OutputStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice13_RandomAccessFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice14_Data_InputOutput_Stream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice14_GetEncodeing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice15_CutStringByBytes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/编码问题" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice1_FrameBaseUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice1_Frame_Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice2_MouseListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice2_TestField_Frame_Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice3_TextField_Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice4_Program2_TimeLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_easyKnowledge/Practice4_ShowDirProgram1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice1_ClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice2_GetConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice2_GetField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice2_GetMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice6_MainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice6_PIC_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice6_ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/Practice6_SoundCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegexLearning/Practice0_RegexDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegexLearning/Practice1_Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegexLearning/Practice1_MatcherAndPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegexLearning/Practice1_ReplaceAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegexLearning/Practice1_Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter1_1_EchoPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter1_5_EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter1_5_EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter2_6_SMTPSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter2_8test_HTTPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice1_InetAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice1_ServerSocket_Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice1_Socket_Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice2_DatagramSocket_UDPReceive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice2_DatagramSocket_UDPSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice2_ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice3_TCP_FileServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice3_TCP_FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice4_MyBrowser_Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/Practice4_MyBrowser_Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocketProgram/浏览器如何发送请求的（html协议）" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice13_PipeInput_OutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice13_RandomAccessFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice14_Data_InputOutput_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice14_GetEncodeing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice15_CutStringByBytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream_IntOut/编码问题" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Book2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/ObjectFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Reflect/Practice5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/MoveFileWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice13_ByteArray_Input_OutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice12_ObjectOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Stream_IntOut/Practice12_ObjectOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLearningStory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearningStory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Lambda表达式/FunctionInterface04_Predicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Lambda表达式/FunctionInterface04_Predicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Lambda表达式/FunctionInterface05_Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Lambda表达式/FunctionInterface05_Function.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/classandobject/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/classandobject/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/java基础/regex_Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/网络编程/Pracitce1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflect/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/Practice1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/Practice2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflect/Practice3_GetConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/Practice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflect/Practice4_GetMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflect/Practice5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflect/Practice5_GetField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream_IntOut/MoveFileWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice13_ByteArray_Input_OutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream_IntOut/Practice12_ObjectOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream_IntOut/Practice12_ObjectOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classandobject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classandobject/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java基础/regex_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegexLearning/regex_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络编程/Pracitce1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="216" />
+    <option name="myElementSize" value="218" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -203,6 +65,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="179" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
@@ -210,7 +76,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/visualgo" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -221,13 +87,13 @@
       <recent name="Stream_IntOut" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice1_ReplaceAll">
-    <configuration name="Practice1_Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegexLearning.Practice1_Match" />
+  <component name="RunManager" selected="JUnit.CatTest.testSayHello">
+    <configuration name="MethodFerence01_What" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream流AndMethodFerence.MethodFerence01_What" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegexLearning.*" />
+          <option name="PATTERN" value="Stream流AndMethodFerence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice1_ReplaceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegexLearning.Practice1_ReplaceAll" />
+    <configuration name="Stream07_Collect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream流AndMethodFerence.Stream07_Collect" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegexLearning.*" />
+          <option name="PATTERN" value="Lambda表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice1_Split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegexLearning.Practice1_Split" />
+    <configuration name="Stream08_FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream流AndMethodFerence.Stream08_FlatMap" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegexLearning.*" />
+          <option name="PATTERN" value="Lambda表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflect.Practice3" />
+    <configuration name="Stream09_Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream流AndMethodFerence.Stream09_Reduce" />
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflect.*" />
+          <option name="PATTERN" value="Lambda表达式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,15 +140,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice6_ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflect.Practice6_ReflectTest" />
+    <configuration name="CatTest.testSayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearningStory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflect.*" />
+          <option name="PATTERN" value="Junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Junit" />
+      <option name="MAIN_CLASS_NAME" value="Junit.CatTest" />
+      <option name="METHOD_NAME" value="testSayHello" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -446,19 +315,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Practice3" />
-      <item itemvalue="Application.Practice6_ReflectTest" />
-      <item itemvalue="Application.Practice1_Match" />
-      <item itemvalue="Application.Practice1_Split" />
-      <item itemvalue="Application.Practice1_ReplaceAll" />
+      <item itemvalue="Application.Stream07_Collect" />
+      <item itemvalue="Application.Stream08_FlatMap" />
+      <item itemvalue="Application.Stream09_Reduce" />
+      <item itemvalue="Application.MethodFerence01_What" />
+      <item itemvalue="JUnit.CatTest.testSayHello" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Practice1_ReplaceAll" />
-        <item itemvalue="Application.Practice1_Split" />
-        <item itemvalue="Application.Practice1_Match" />
-        <item itemvalue="Application.Practice6_ReflectTest" />
-        <item itemvalue="Application.Practice3" />
+        <item itemvalue="JUnit.CatTest.testSayHello" />
+        <item itemvalue="Application.MethodFerence01_What" />
+        <item itemvalue="Application.Stream09_Reduce" />
+        <item itemvalue="Application.Stream08_FlatMap" />
+        <item itemvalue="Application.Stream07_Collect" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +458,43 @@
       <workItem from="1591620227005" duration="4341000" />
       <workItem from="1591685530365" duration="9079000" />
       <workItem from="1591704949308" duration="281000" />
-      <workItem from="1591705247588" duration="6402000" />
+      <workItem from="1591705247588" duration="6709000" />
+      <workItem from="1591752207748" duration="10614000" />
+      <workItem from="1591926988928" duration="3566000" />
+      <workItem from="1592056472825" duration="3010000" />
+      <workItem from="1592099948610" duration="4990000" />
+      <workItem from="1592107709565" duration="2287000" />
+      <workItem from="1592278462577" duration="1676000" />
+      <workItem from="1593084738778" duration="7648000" />
+      <workItem from="1593095068115" duration="453000" />
+      <workItem from="1593772896699" duration="4293000" />
+      <workItem from="1593914002136" duration="1837000" />
+      <workItem from="1593934552330" duration="3656000" />
+      <workItem from="1593954683143" duration="2117000" />
+      <workItem from="1594216649035" duration="185000" />
+      <workItem from="1594560076209" duration="3643000" />
+      <workItem from="1594968283359" duration="5193000" />
+      <workItem from="1595230992732" duration="816000" />
+      <workItem from="1595297548951" duration="61000" />
+      <workItem from="1595313786284" duration="6621000" />
+      <workItem from="1596163306379" duration="36000" />
+      <workItem from="1597069516187" duration="5000" />
+      <workItem from="1597145204558" duration="1014000" />
+      <workItem from="1597200006579" duration="305000" />
+      <workItem from="1597330108647" duration="80000" />
+      <workItem from="1597556374112" duration="45000" />
+      <workItem from="1597568762539" duration="103000" />
+      <workItem from="1597589755007" duration="55000" />
+      <workItem from="1597716247427" duration="6533000" />
+      <workItem from="1597733010501" duration="1263000" />
+      <workItem from="1597754421277" duration="6664000" />
+      <workItem from="1597804107845" duration="2406000" />
+      <workItem from="1597832195634" duration="9338000" />
+      <workItem from="1597890015289" duration="115000" />
+      <workItem from="1597891342678" duration="437000" />
+      <workItem from="1597891819924" duration="290000" />
+      <workItem from="1597995616059" duration="13047000" />
+      <workItem from="1598016320471" duration="2960000" />
     </task>
     <task id="LOCAL-00001" summary="版本进度:网络编程">
       <created>1587268680942</created>
@@ -668,7 +573,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591019830651</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="444">
+      <created>1591713241307</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591713241307</updated>
+    </task>
+    <task id="LOCAL-00013" summary="444">
+      <created>1597844497467</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597844497467</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,21 +602,14 @@
     <MESSAGE value="IO流更新2" />
     <MESSAGE value="IO流更新3" />
     <MESSAGE value="IO能写对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO能写对象" />
+    <MESSAGE value="444" />
+    <option name="LAST_COMMIT_MESSAGE" value="444" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="81" key="#HeapSort" timestamp="1587374335404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="467" y="81" key="#HeapSort/0.0.1536.824@0.0.1536.824" timestamp="1587374335404" />
     <state x="361" y="71" key="#Notifications" timestamp="1589773469905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1589773469905" />
-    <state x="467" y="81" key="#RadixSort" timestamp="1587465918207">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="467" y="81" key="#RadixSort/0.0.1536.824@0.0.1536.824" timestamp="1587465918207" />
     <state x="361" y="71" key="#Updates" timestamp="1589519063543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -710,18 +622,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="472" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591708035936" />
-    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1591707121570">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="563" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1598020476283">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591707121570" />
+    <state x="563" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592058330487" />
+    <state x="563" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598020476283" />
     <state x="498" y="211" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591350787874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="211" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591350787874" />
-    <state x="608" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587564157652">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="608" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1587564157652" />
     <state x="262" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591195822637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -730,82 +639,107 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591189090262" />
-    <state x="350" y="6" key="CommitChangelistDialog2" timestamp="1591713038409">
+    <state x="448" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593940625813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="350" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591713038409" />
+    <state x="448" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1593940625813" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1597844493349">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="350" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591713237243" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1597844493349" />
     <state x="807" y="227" key="FileChooserDialogImpl" timestamp="1591350213892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="807" y="227" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591350213892" />
-    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1591713038503">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="290" key="GridCell.Tab.0.bottom" timestamp="1598020604420">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591713038503" />
-    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1591713038503">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="290" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598020604420" />
+    <state width="1483" height="290" key="GridCell.Tab.0.center" timestamp="1598020604420">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591713038503" />
-    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1591713038503">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="290" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598020604420" />
+    <state width="1483" height="290" key="GridCell.Tab.0.left" timestamp="1598020604420">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591713038503" />
-    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1591713038503">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="290" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598020604420" />
+    <state width="1483" height="290" key="GridCell.Tab.0.right" timestamp="1598020604420">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591713038503" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1591361426471">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="290" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598020604420" />
+    <state width="1483" height="264" key="GridCell.Tab.1.bottom" timestamp="1594973432703">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591361426471" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1591361426471">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="264" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594973432703" />
+    <state width="1483" height="264" key="GridCell.Tab.1.center" timestamp="1594973432703">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591361426471" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1591361426471">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="264" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1594973432703" />
+    <state width="1483" height="264" key="GridCell.Tab.1.left" timestamp="1594973432703">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591361426471" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1591361426471">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="264" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1594973432703" />
+    <state width="1483" height="264" key="GridCell.Tab.1.right" timestamp="1594973432703">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591361426471" />
-    <state x="355" y="102" width="996" height="707" key="SettingsEditor" timestamp="1591363018995">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1483" height="401" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
+    <state width="1483" height="264" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1594973432703" />
+    <state x="183" y="0" width="1139" height="824" key="SettingsEditor" timestamp="1597892007924">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="355" y="102" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591363018995" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591019840911">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="183" y="0" width="1139" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593095446268" />
+    <state x="183" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597892007924" />
+    <state x="423" y="111" width="675" height="655" key="StructurePopup" timestamp="1597716454619">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591019840911" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587692303693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="423" y="111" width="675" height="655" key="StructurePopup/0.0.1536.864@0.0.1536.864" timestamp="1597716454619" />
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1597845889568">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587692303693" />
-    <state x="356" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590672433962">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591713285129" />
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1597845889568" />
+    <state x="403" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598019866328">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="403" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1598019866328" />
+    <state x="356" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595315073062">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="356" y="31" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1590672433962" />
+    <state x="356" y="33" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1595315073062" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589773160293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589773160293" />
-    <state x="321" y="148" width="894" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589456642063">
+    <state x="321" y="148" width="894" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593085634477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="321" y="148" width="894" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1589456642063" />
+    <state x="321" y="148" width="894" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1593085634477" />
     <state x="737" y="340" key="extract.method.dialog" timestamp="1591188431493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="737" y="340" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1591188431493" />
-    <state x="753" y="23" width="642" height="801" key="find.popup" timestamp="1586399190163">
+    <state x="0" y="0" key="new project wizard" timestamp="1594216829902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="753" y="23" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586399190163" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591712497434">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594216829902" />
+    <state x="341" y="193" key="run.anything.popup" timestamp="1595318351312">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591712497434" />
+    <state x="341" y="193" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1595318351312" />
+    <state x="46" y="152" width="840" height="711" key="search.everywhere.popup" timestamp="1597840878872">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591929461269" />
+    <state x="46" y="152" width="840" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1597840878872" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,10 +757,14 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="5555" language="JAVA" />
+        <watch expression="sum" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaLearningStory$ThreadPoolExecutor.ic" NAME="ThreadPoolExecutor Coverage Results" MODIFIED="1597719134850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ThreadTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaLearningStory$Integer_Int.ic" NAME="Integer_Int Coverage Results" MODIFIED="1586489354740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>classandobject.*</FILTER>
     </SUITE>
@@ -835,6 +773,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaLearningStory$yang.ic" NAME="yang Coverage Results" MODIFIED="1586052253389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>java基础.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaLearningStory$Practice1_MatcherAndPattern.ic" NAME="Practice1_MatcherAndPattern Coverage Results" MODIFIED="1591753501661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>RegexLearning.*</FILTER>
     </SUITE>
   </component>
 </project>

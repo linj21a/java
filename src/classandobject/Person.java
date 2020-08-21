@@ -46,7 +46,7 @@ public class Person  implements Comparable<Person>, Serializable {//比较、序
     }
     @Override
     public int hashCode(){
-        System.out.println("我的hashCode方式是调用name.hashCode"+this.name+"!!!");
+       // System.out.println("我的hashCode方式是调用name.hashCode"+this.name+"!!!");
         return this.name.hashCode();
     }
     public void show(){
@@ -56,6 +56,11 @@ public class Person  implements Comparable<Person>, Serializable {//比较、序
         System.out.println(name+"说："+s);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

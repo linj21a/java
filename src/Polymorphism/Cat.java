@@ -3,9 +3,13 @@ package Polymorphism;
 public class Cat extends Animal {
     private String hobby;
 
-    Cat(String name, int age, String hobby) {
+    public Cat(String name, int age, String hobby) {
         super(name, age);
         this.hobby = hobby;
+    }
+
+    public String getHobby() {
+        return hobby;
     }
 
     public void sayHello() {
