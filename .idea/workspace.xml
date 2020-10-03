@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79aaa80e-4a60-4f37-972f-bf4a398e8f16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Junit/CatTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Junit/CatTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/test_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearningStory/Polymorphism/test_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Junit/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit/CatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/test_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SocketProgram/Chapter2_8test_HTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketProgram/Chapter2_8test_HTTPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SocketProgram/Practice4_MyBrowser_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SocketProgram/Practice4_MyBrowser_Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,8 +318,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Practice4_MyBrowser_Client" />
-        <item itemvalue="Application.Chapter2_8test_HTTPServer" />
         <item itemvalue="Application.Practice4_MyBrowser_Server" />
+        <item itemvalue="Application.Chapter2_8test_HTTPServer" />
         <item itemvalue="Application.test_1" />
         <item itemvalue="JUnit.CatTest.testSayHello" />
       </list>
@@ -501,7 +492,7 @@
       <workItem from="1598231685172" duration="299000" />
       <workItem from="1599220541382" duration="123000" />
       <workItem from="1600658191819" duration="2000" />
-      <workItem from="1601712491217" duration="3373000" />
+      <workItem from="1601712491217" duration="7746000" />
     </task>
     <task id="LOCAL-00001" summary="版本进度:网络编程">
       <created>1587268680942</created>
@@ -601,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598020691121</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="java基础完结版">
+      <created>1601715994085</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601715994085</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,30 +627,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="448" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1593940625813" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1598020688952">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1601715991622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598020688952" />
-    <state width="1483" height="251" key="GridCell.Tab.0.bottom" timestamp="1601715898599">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1601715991622" />
+    <state width="1483" height="543" key="GridCell.Tab.0.bottom" timestamp="1601735315834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1483" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
-    <state width="1483" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601715898599" />
-    <state width="1483" height="251" key="GridCell.Tab.0.center" timestamp="1601715898599">
+    <state width="1483" height="543" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601735315834" />
+    <state width="1483" height="543" key="GridCell.Tab.0.center" timestamp="1601735315834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1483" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
-    <state width="1483" height="251" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601715898599" />
-    <state width="1483" height="251" key="GridCell.Tab.0.left" timestamp="1601715898599">
+    <state width="1483" height="543" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601735315834" />
+    <state width="1483" height="543" key="GridCell.Tab.0.left" timestamp="1601735315833">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1483" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
-    <state width="1483" height="251" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601715898599" />
-    <state width="1483" height="251" key="GridCell.Tab.0.right" timestamp="1601715898599">
+    <state width="1483" height="543" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601735315833" />
+    <state width="1483" height="543" key="GridCell.Tab.0.right" timestamp="1601735315834">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1483" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593788532093" />
-    <state width="1483" height="251" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601715898599" />
+    <state width="1483" height="543" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601735315834" />
     <state width="1483" height="262" key="GridCell.Tab.1.bottom" timestamp="1601714914772">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -682,10 +680,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="423" y="111" width="675" height="655" key="StructurePopup/0.0.1536.864@0.0.1536.864" timestamp="1597716454619" />
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1598020725997">
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2" timestamp="1601716000501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598020725997" />
+    <state x="361" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601716000501" />
     <state x="403" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598019866328">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

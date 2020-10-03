@@ -35,8 +35,6 @@ public class Practice4_MyBrowser_Client {
 
         //注意加一个空行
         pw.println();
-
-
         //将接收到的数据打印出来。
         InputStream in = s.getInputStream();
         byte[]bytes = new byte[1024];
