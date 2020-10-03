@@ -26,5 +26,9 @@ public class test_1 {
         Dog dog = (Dog) an;
         dog.sayHello();
         dog.yeild();
+
+       /* Cat cat1 = new Cat("Tom",4,"do");
+        Cat cat2 = new Cat("Dom",8,"do");
+        System.out.println(cat1.equals(cat2)+"\n"+cat1.hashCode()+"  "+cat2.hashCode());*/
     }
 }

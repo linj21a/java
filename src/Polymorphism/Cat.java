@@ -15,4 +15,9 @@ public class Cat extends Animal {
     public void sayHello() {
         System.out.println("Cat say:我的爱好是" + this.hobby);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return true;
+    }
 }

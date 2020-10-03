@@ -52,5 +52,6 @@ public class CatTest {
         Assert.assertEquals("吃饭",cat.getHobby());
         //cat.sayHello();
 
+
     }
 }

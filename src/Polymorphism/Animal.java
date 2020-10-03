@@ -10,6 +10,7 @@ public class Animal {
         this.name = name;
     }
 
+
     //用于重写，多态的方法
     public void sayHello() {
         System.out.println("Animal say its age is " + this.age + " name is " + this.name);

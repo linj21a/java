@@ -16,12 +16,14 @@ import java.net.SocketAddress;
 public class Practice4_MyBrowser_Client {
     public static void main(String[]args) throws IOException {
         Socket s = new Socket();
-        SocketAddress address = new InetSocketAddress("www.icourse163.org",80);
+        //www.baidu.com
+        String hostname = "www.icourse163.org";
+        SocketAddress address = new InetSocketAddress(hostname,80);
         s.connect(address);
         //发送请求，按照http的格式
         PrintWriter pw = new PrintWriter(s.getOutputStream(),true);
         pw.println("GET /channel/2001.htm HTTP/1.1");
-        pw.println("Host: www.icourse163.org:80 ");
+        pw.println("Host: "+hostname+":80 ");
         pw.println("Connection: keep-alive");
         pw.println("Upgrade-Insecure-Requests: 1");
         pw.println("User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
@@ -40,6 +42,7 @@ public class Practice4_MyBrowser_Client {
         byte[]bytes = new byte[1024];
         int len;
         while((len=in.read(bytes))!=-1){
+
             System.out.println(new String(bytes,0,len));
         }
         s.close();
