@@ -31,6 +31,8 @@ public class StringTest1 {
     private static StringBuilder intToString1(int[] i) {
         StringBuilder s = new StringBuilder();
         for (int j = 0; j < i.length; j++) {
+            //使用加号，连接，会产生中间字符串到字符串常量运行池中
+            //intern()函数
             s.append(i[j] + "");
         }
         return s;
