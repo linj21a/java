@@ -12,7 +12,7 @@ public class Chapter3_1_Client {
     public static void main(String[] ars) throws IOException, InterruptedException {
         final int length = 100;
         String host = "localhost";
-        int port = 9000;
+        int port = 9090;
         Socket[]sockets = new Socket[length];
         for(int i=0;i<length;i++){
             sockets[i] = new Socket(host,port);//创建100次连接

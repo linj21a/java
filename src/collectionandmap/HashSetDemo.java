@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /**
- * HshSet是基于哈希表的数据结构实现的（一个HashMap实例）
+ * HashSet是基于哈希表的数据结构实现的（一个HashMap实例）
  * set，无序的不重复元素的允许null元素
  *
  * 有序的实现子类——LinkedHashSet

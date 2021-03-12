@@ -31,6 +31,7 @@ public class SingleDesignDemo {
         if(i==1){
             p.destroy();//杀死记事本这个子进程
         }
+        r.gc();
 //        r.exec("notepad E:\\words.txt");//使用记事本打开对应的文件
        // r.exec("QQ.exe");//因为虚拟机找了当前的文件有没有QQ.exe,没有就去系统path里边找，也没有，就报错！
         //java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。

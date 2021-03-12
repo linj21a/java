@@ -8,8 +8,8 @@ public class Practice10_Properties_ListFile {
     static int i = 0;
 
     public static void main(String[] args) {
-        File src = new File("E:\\百度网盘下载\\java学习路线\\");
-        FilenameFilter filter = (dir, name) -> name.endsWith(".avi") || name.endsWith(".mp4") || name.endsWith(".wmv");
+        File src = new File("E:\\算法书籍\\");
+        FilenameFilter filter = (dir, name) -> name.endsWith(".pdf") || name.endsWith(".mp4") || name.endsWith(".wmv");
         List<File> list = new ArrayList<>();
         getFileName(src, filter, list);
         add(new File(src, "list.txt"), list);

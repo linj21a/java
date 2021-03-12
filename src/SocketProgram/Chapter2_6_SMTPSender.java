@@ -32,7 +32,7 @@ public class Chapter2_6_SMTPSender {
      */
     public static void main(String[]args){
         Message msg = new Message("tom@abc.com",//发送者邮箱
-                "linda@def.com",//接收者邮箱
+                "6041@.com",//接收者邮箱
                 "hello",//邮件标题
                 "hi,I miss you very much!");
         new Chapter2_6_SMTPSender().sendMail(msg);
